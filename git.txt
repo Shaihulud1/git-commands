@@ -1,50 +1,50 @@
-1)git init - создание гит в папке
+п»ї1)git init - СЃРѕР·РґР°РЅРёРµ РіРёС‚ РІ РїР°РїРєРµ
 
-2)git config --global user.name "Shaihulud1" пользователь(глобально)
+2)git config --global user.name "Shaihulud1" РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ(РіР»РѕР±Р°Р»СЊРЅРѕ)
 
 3)git config --global user.email "swaroghh@yandex.ru"
 
 4)git config --list
 
-5)игнорирование .gitignore:
+5)РёРіРЅРѕСЂРёСЂРѕРІР°РЅРёРµ .gitignore:
 # rar
 usermvc.rar
 # txt
 docs/*.txt
 
-6)git status - статус
-(branch master - ветка мастер)
+6)git status - СЃС‚Р°С‚СѓСЃ
+(branch master - РІРµС‚РєР° РјР°СЃС‚РµСЂ)
 
-7)git add . (добавление в коммит)
+7)git add . (РґРѕР±Р°РІР»РµРЅРёРµ РІ РєРѕРјРјРёС‚)
 
-8)git rm --cached 'file' удаление из коммита
+8)git rm --cached 'file' СѓРґР°Р»РµРЅРёРµ РёР· РєРѕРјРјРёС‚Р°
 
-9)git commit -a -m "init" коммит мессаж init
+9)git commit -a -m "init" РєРѕРјРјРёС‚ РјРµСЃСЃР°Р¶ init
 
-10)git add index.php удаление из untracked
+10)git add index.php СѓРґР°Р»РµРЅРёРµ РёР· untracked
 
-11)git add "*.php" - все пехепе
+11)git add "*.php" - РІСЃРµ РїРµС…РµРїРµ
 
 12)git checkout -- file.php
 
-13)git log - история коммитов
+13)git log - РёСЃС‚РѕСЂРёСЏ РєРѕРјРјРёС‚РѕРІ
 
-14)git help log - описание лога
+14)git help log - РѕРїРёСЃР°РЅРёРµ Р»РѕРіР°
 
-15)git checkout -b new_f ветка и переключение
+15)git checkout -b new_f РІРµС‚РєР° Рё РїРµСЂРµРєР»СЋС‡РµРЅРёРµ
 
-16)git branch new_f -создание ветки
+16)git branch new_f -СЃРѕР·РґР°РЅРёРµ РІРµС‚РєРё
 
-17)git checkout new_f -переключение ветки
+17)git checkout new_f -РїРµСЂРµРєР»СЋС‡РµРЅРёРµ РІРµС‚РєРё
 
-18)git config --global merge.tool kdiff3 мерж с кадиф3
+18)git config --global merge.tool kdiff3 РјРµСЂР¶ СЃ РєР°РґРёС„3
 
-19)git merge master -мерже в выбранную ветку, ветку мастера
+19)git merge master -РјРµСЂР¶Рµ РІ РІС‹Р±СЂР°РЅРЅСѓСЋ РІРµС‚РєСѓ, РІРµС‚РєСѓ РјР°СЃС‚РµСЂР°
 
-20)git mergetool - мерж с помощью утилиты
+20)git mergetool - РјРµСЂР¶ СЃ РїРѕРјРѕС‰СЊСЋ СѓС‚РёР»РёС‚С‹
 
 21)$ git config --global mergetool.kdiff3.cmd '"D:\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE -o $MERGED'
-кадиф установка
+РєР°РґРёС„ СѓСЃС‚Р°РЅРѕРІРєР°
 
 
 
