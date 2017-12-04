@@ -1,0 +1,55 @@
+1)git init - создание гит в папке
+
+2)git config --global user.name "Shaihulud1" пользователь(глобально)
+
+3)git config --global user.email "swaroghh@yandex.ru"
+
+4)git config --list
+
+5)игнорирование .gitignore:
+# rar
+usermvc.rar
+# txt
+docs/*.txt
+
+6)git status - статус
+(branch master - ветка мастер)
+
+7)git add . (добавление в коммит)
+
+8)git rm --cached 'file' удаление из коммита
+
+9)git commit -a -m "init" коммит мессаж init
+
+10)git add index.php удаление из untracked
+
+11)git add "*.php" - все пехепе
+
+12)git checkout -- file.php
+
+13)git log - история коммитов
+
+14)git help log - описание лога
+
+15)git checkout -b new_f ветка и переключение
+
+16)git branch new_f -создание ветки
+
+17)git checkout new_f -переключение ветки
+
+18)git config --global merge.tool kdiff3 мерж с кадиф3
+
+19)git merge master -мерже в выбранную ветку, ветку мастера
+
+20)git mergetool - мерж с помощью утилиты
+
+21)$ git config --global mergetool.kdiff3.cmd '"D:\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE -o $MERGED'
+кадиф установка
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Shaihulud1/git-commands.git
+git push -u origin master
